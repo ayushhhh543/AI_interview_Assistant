@@ -1,2 +1,6 @@
 streamlit
+pypdf
+sentences-transdormers
+faiss-cpu
 groq
+numpy
