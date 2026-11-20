@@ -52,7 +52,7 @@ def retrieve_content (question, embedd_model, chunks, index, num_chunks=3):
   for i in vec_indices[0]:
     if i !=-1:
       background += chunks[i] + "\n\n"
-      return background
+  return background
 
 #Ask
 def ask_rag (question, embed_model, chunks, index, api_key, num_chunks, model_name = ()
